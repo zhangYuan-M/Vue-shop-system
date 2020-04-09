@@ -1,0 +1,29 @@
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.el-card {
+  margin-top: 15px;
+  box-shadow: 0px 0px 1px rgb(109, 109, 109);
+}
+
+.el-pagination {
+  margin-top: 10px;
+}
+
+/* 在局部设置好像没有效果 */
+.el-step__title {
+  font-size: 14px !important;
+  line-height: 28px;
+}
+
+/* 级联选择器的样式 */
+.el-cascader-menu__list {
+  position: relative;
+  min-height: 100px;
+  height: 400px;
+}
